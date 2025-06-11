@@ -1,0 +1,27 @@
+
+.img-con{
+   
+  display: inline-flex;
+    text-align: center;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+  height:fit-content;
+  
+    flex-wrap: wrap;
+  
+   padding:5%;
+   
+}
+
+.img-con div{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   height:50vh;
+  padding:1%;
+  margin:1%;
+
+  
+}

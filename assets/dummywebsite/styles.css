@@ -1,0 +1,710 @@
+#page1 .a1{
+    color:white;
+    background-color: black;
+    margin:0px;
+    padding:12px;
+    text-align:center;
+    font-size: 2vh;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+ 
+    }
+
+    body{
+        font-family: "Lato", sans-serif;
+        padding:0px;
+        
+       
+    }
+    .underl{
+        text-decoration: underline;
+    }
+    
+    .container1{
+        display:inline-flex;
+       justify-content: right;
+        margin:5px;
+       width:95%;
+        flex-wrap: wrap;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+       
+    }
+    #page1 h2{
+        margin:4% 3% 3% 0%;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none; 
+    }
+    #page1 img{
+        height:10%;
+        width:20%;
+        margin:0% 30%;
+        min-width: 120px;
+        min-height: 50px;
+    
+        
+    }
+    ul{
+        list-style:none;
+    }
+    #page1 li{
+        display:inline-flex;
+        flex-wrap: wrap;
+        margin:0% 1%;
+        color:black;
+        font-weight: bold;
+    
+       
+    }
+    #page1 li:hover{
+        border-bottom:2px solid black;
+        
+    }
+    #page1 p{
+        text-align: center;
+         
+    
+    }
+    .title{
+        text-align: center;
+        padding-left:0px;
+    }
+    .no{
+        visibility: visible;
+    }
+.wh{
+        background-color: white;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        background-image: url(./assets/Captssure.PNG);
+        background-repeat: repeat;
+       background-size:80%;
+      padding:5%;
+      align-items: center;
+      margin:0% 5%;
+      height:50vh;
+    }
+   #page4 .wh{
+    background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+   }
+    #page3 .wh{
+        background-image: url(./assets/accessory-background-beauty-care-closeup-color-1433933-pxhere.com.jpg);
+        justify-content: left;
+    }
+    .wh p{
+        height:30vh;
+        background-color: white;
+        padding:3%;
+        padding-bottom: 0px;
+        font-weight: bold;
+        font-size: 2vh;
+    }
+    #page6 .wh p{
+        height:20vh;
+        background-color: white;
+        padding:3%;
+        
+        font-weight: bold;
+        font-size: 2.5vh;
+    }
+    #page3 .wh{
+        background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+        justify-content: left;
+        color:black;
+        
+    }
+ 
+    #page5 .wh{
+        background-image: url(./assets/creamskin-care-cosmetics-lid-f.jpg);
+        justify-content: center;
+        color:black;
+        
+    }
+    #page7 .wh{
+        background-image: url(./assets/im6.PNG);
+        justify-content: center;
+        align-items: center;
+        color:black;
+        
+        margin-top:0%;
+        margin-bottom: 0%;
+        padding-bottom:0%;
+        padding-top:0%;
+        height: 50vh;
+        
+    }
+
+    .pr{
+        color:violet;
+        font-size: 5vh;
+    }
+    .btn{
+        width:fit-content;
+        margin:2%;
+   padding:1%;
+   
+        height:20%;
+        background-color: violet;
+        color:white;
+        border:white;
+        font-size: 1em;
+    }
+    #page7 p .btn{
+        background-color: black;
+        color:white;
+        width:fit-content;
+        border-radius: 20px;
+        margin:2%;
+    }
+    #page3 .btn{
+      background-color: #f6b7d6;
+        border:1px solid black;
+        color:black;
+        font-size: 1em;
+        width:fit-content;
+        height:30%;
+        margin:5%;
+        
+    }
+    #page4 .btn{
+        background-color: black;
+          border:1px solid black;
+          color:white;
+          font-size: 1em;
+          width:fit-content;
+          height:30%;
+          margin:5%;
+          text-align: center;
+      }
+     
+      #page5 .btn{
+        background-color: transparent;
+          border:1px solid black;
+          color:black;
+          font-size: 1em;
+          font-weight: bold;
+          width:fit-content;
+          height:30%;
+          margin:5%;
+          text-align: center;
+          
+      }
+      #page6 .btn{
+        width:30%;
+          height:30%;
+          font-size: 0.8em;
+        background-color: white;
+        color:black;
+         border:1px solid black;
+    }
+    .z{
+        height:0px;
+        visibility: hidden;
+    }
+   #page1 li{
+       padding-bottom: 10px;
+    }
+    .ro{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+
+        
+        flex-direction: column;
+        text-align: center;
+    }
+    .norm{
+        font-size: 4vh;
+    }
+    
+    .con{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        margin:2%;
+        
+    }
+#page6 .con .btn{
+    width:fit-content;
+    height:100%;
+   padding:3px;
+
+}
+    #page8 p{
+        width: 50%;
+        height: 50vh;
+        text-align: center;
+        background-color: pink;
+        margin:6% 5% 3% 5%;
+        font-size: 0.65em;
+      
+    }
+    #page8 p .btn{
+        background-color: black;
+        color:white;
+        width:fit-content;
+        height:15%;
+        margin:5%;
+    }
+    .em{
+        background-color: black;
+        color:white;
+        text-align: center;
+        font-size: 0.70em;
+      
+        padding-top: 3px;
+        margin-top:20px;
+        padding-bottom:20px;
+        
+        
+    }
+    .em p{
+        font-size: 1rem;
+     
+     
+        
+    }
+    .em button{
+     background-color:#dc3545;
+     color:white;
+     border:1px solid white;
+     border-radius: 20px;
+     margin:1%;
+    }
+    #fname{
+        margin:0% 1% 0% 0%;
+    }
+    
+    .ff{
+        display:inline-flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height:30%;
+        flex-wrap: wrap;
+        font-size: 1em;
+       
+        color:white;
+        background-color:#dc3545;
+    
+    }
+    .lar{
+        font-size: 1.5em;
+    }
+    .right{
+        text-align: right;
+        background-color: #dc3545;
+     
+        color: white;
+        padding-bottom:5px;
+        width:100%;
+       
+    }
+    #page10 .container1{
+        background-color: #dc3545;
+        margin:0px;
+        padding: 0px;
+        color: white;
+        display: inline-flex;
+        width:100%
+    }
+    #country{
+        background-color: #dc3545;
+        color:white;
+        margin-right:5%;
+        width:20%;
+        height: 5vh;
+       
+    }
+    .dis{
+        visibility: visible;
+    }
+    .sm{
+        display: none;
+    }
+    .app{
+        display: none;
+        background-color:#dc3545;
+        color:white;
+        width:20%;
+        padding-bottom:2%;
+       
+       
+    }
+    select{
+        background-color:#dc3545;
+        color: white;
+        border:1px solid white;
+        text-align: center;  
+        height: 4vh;  
+        
+    }
+    .red{
+        background-color: #dc3545;
+    }
+    .pressed{
+        background-color: grey;
+    }
+ 
+    .addcart{
+   
+        display: flex;
+          background-color: antiquewhite;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          width:100%;
+          flex-wrap: wrap;
+          gap:5%;
+          
+         
+      }
+      .addcart div{
+
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items:center;
+       height:60vh;
+       width:20vw;
+      
+    }
+
+   .init{
+    text-align: center;
+    height:60vh;
+    color:black;
+    display:block;
+   }
+    @media screen and (max-width: 640px) {
+        .wh,#page3 .wh,#page4 .wh,#page5 .wh,#page7 .wh{
+         background-image: none;
+         justify-content: center;
+         
+        }
+        #page4 .wh p,#page3 .wh p,#page5 .wh p,#page7 .wh p{
+            background-color: transparent;
+           
+            
+        }
+       
+        .no{
+            visibility:hidden;
+           }
+        .z{
+            height:50vh;
+            width:100%;
+           visibility: visible;
+        }
+        .dis{
+            display: none;
+            
+        }
+        .app{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            width:100%;      
+            text-align: center;  
+              
+        }
+        .sm{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+        .right{
+            text-align: center;
+        }
+        .container1{
+            text-align: center;
+            justify-content: center;
+          
+        }
+       
+    }
+ 
+    .dropdown button{
+     background-color: white;
+      border: 1px solid white;
+     color:white;
+     width:100%;
+    }
+ 
+    .dropdowncontent {
+     display:none;
+        background-color: white;
+     
+        color:black;
+        text-align:right;
+        font-size: small;
+        position:absolute;
+        z-index: 1;
+        width:40%;
+       
+     box-shadow:  0px 8px 16px 0px black;
+     padding: 12px 16px;
+     min-width: 160px;
+    }
+ .d0{
+    bottom:450px;
+ }
+  .d1{
+    bottom:410px;
+  }
+  .d2{
+    bottom:370px;
+   }
+   .d3{
+    bottom:330px;
+   }
+   .d4{
+    bottom:290px;
+   }
+   .d5{
+    bottom:250px;
+   }
+   .d6{
+    bottom:210px;
+   }
+   .d7{
+    bottom:170px;
+   }
+   .d8{
+    bottom:130px;
+   }
+   .d9{
+    bottom:90px;
+   }
+
+.lgo{
+    background-color: white;
+    border: 1px solid #dc3545;
+    color:#dc3545;
+    width:25%;
+   text-align: center;
+   margin-right:3%;
+   font-weight: bold;
+}
+#map{
+    height: 400px;
+}
+   /* .dropdowncontent:hover {
+     
+        background-color:rgb(252, 208, 208);
+       border-bottom:2px solid black;
+        color:black;
+        text-align: center;
+
+    }
+    .dropdown:hover .dropdowncontent {
+        display:block;
+        transform:translate(50px);
+      }*/
+  
+      .dropdowncontent:hover {
+        background-color: rgb(233, 227, 227)
+      }
+    .finalPosition {
+        animation:change 0.5s linear forwards;
+      
+        display:block;
+    }
+    @keyframes change {
+        0% {
+           transform: translate(-100px);
+        }
+        100% {
+          transform: translate(-30px) ;
+        }}
+
+
+        #search1 button{
+background-color: #dc3545;
+
+        }
+
+
+        h4{
+color:red;
+        }
+       #page1 .welcome{
+            text-align: left;
+            font-size: 2.5vh;
+            font-weight: bold;
+        }
+a {
+       color: white;
+    text-decoration: none;}
+
+.img-con button{
+background-color:black;
+border:2px solid goldenrod;
+border-radius: 20px;
+padding:5px;
+color:white;
+margin-top:10px;
+}
+.img-con button:hover{
+    background-color:rgb(86, 80, 80);
+    border:2px solid goldenrod;
+    border-radius: 20px;
+    padding:5px;
+    color:white;   
+   
+    }
+.img-con img{
+   
+    border:1px solid black;
+    padding:5px;
+    margin-left:5px;
+    min-width: 150px;
+    border-radius: 20px;
+    margin-bottom:10px;
+    color:white;
+    }
+a .buttonss{
+ 
+    background-color:black;
+    border:2px solid goldenrod;
+    border-radius: 20px;
+    padding:5px;
+    color:white;   
+}
+a .buttonss:hover{
+ 
+    background-color:rgb(86, 80, 80);
+    border:2px solid goldenrod;
+    border-radius: 20px;
+    padding:5px;
+    color:white;   
+   
+}
+ .buttonc{
+ 
+    background-color:black;
+    border:2px solid goldenrod;
+    border-radius: 20px;
+    padding:5px;
+    color:white;  
+    
+   
+}
+.buttonc:hover{
+ 
+    background-color:rgb(86, 80, 80);
+    border:2px solid goldenrod;
+    border-radius: 20px;
+    padding:5px;
+    color:white;   
+   
+}
+
+
+.dancing-script-TT {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style:normal;
+    font-size: medium;
+  }
+  .style-script-regular {
+    font-family: "Style Script", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: medium;
+  }
+  .lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  
+  button{
+    font-family:  "Lato", sans-serif;
+    font-weight: bold;
+  }
+  select{
+    font-family:  "Lato", sans-serif;
+    font-size: 1rem;
+  }
+  #page10{
+    font-family:  "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+  }
+
+#page5 .wh p{
+    height: 20vh;
+    background-color: white;
+    padding: 3%;
+    font-weight: bold;
+    font-size: 2vh;
+}
+.mybtn{
+    border-radius: 20px;
+}
+

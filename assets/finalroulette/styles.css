@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    background-color: yellow;
+    
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    
+
+ 
+    
+ 
+   
+}
+
+
+.stcir{
+    height:30vh;
+    width:30vh;
+    border-radius: 50%;
+
+}
+.triangle{
+    position:absolute;
+    width: 0;
+	height: 0;
+	border-left: 1vh solid transparent;
+	border-right: 1vh solid transparent;
+	border-top: 2vh solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size:1.5vh;
+    margin-left:1px;
+
+}
+
+
+.btn{
+    position:absolute;
+    
+    top:10%;
+    z-index:1 ;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    color:yellow;
+    background-color:darkblue;
+    
+}
+.tt{
+    position:absolute;
+    top:5%;
+}
+.spin{
+  animation:ab 5s forwards infinite;
+}
+#element1,#element3,#element5,#element7,#element9,#element11,#element13,#element15,#element17,#element19,#element21,#element23,#element25,#element27,#element29,#element31,#element33,#element35{
+    background-color: red;
+}
+#triangle1,#triangle3,#triangle5,#triangle7,#triangle9,#triangle11,#triangle13,#triangle15,#triangle17,#triangle19,#triangle21,#triangle23,#triangle25,#triangle27,#triangle29,#triangle31,#triangle33,#triangle35{
+    border-top: 2vh solid red;
+}
+
+@keyframes ab{
+    
+    0%{  transform:rotate(0deg);}
+   25%{  transform:rotate(90deg);}
+  50%{   transform:rotate(180deg);}
+   75%{  transform:rotate(270deg);}
+  100%{   transform:rotate(360deg);}
+ 
+}
+
+.element {
+    position: absolute;
+    width: 2.5vh;
+    height:2.5vh;
+    
+    border-radius:50%;
+    border:1px solid yellow;
+   background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size:1.5vh;
+    margin-left:1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.box{
+    background-color:yellow;
+    width: 1.5vh;
+    height:1.5vh;
+    border-radius: 50%;
+z-index:1;
+    position:absolute;
+    left: 51%;
+    top:51%;
+    border:1px solid yellow;
+
+   }
+   
+   .anime{
+    animation: GFG 5s forwards infinite;
+ }
+   @keyframes GFG { 
+    0% { 
+        transform: rotate(-90deg)translate(80px)  
+             
+    } 
+
+    100% { 
+        transform: rotate(-360deg)translate(80px)   
+             
+    } }
